@@ -144,6 +144,16 @@ bindsym $mod+Shift+5 move container to workspace $ws5
 bindsym $mod+Shift+6 move container to workspace $ws6
 bindsym $mod+Shift+7 move container to workspace $ws7
 
+# gaps
+# Increase inner gaps
+bindsym $mod+Control+Up gaps inner all plus 5
+
+# Decrease inner gaps
+bindsym $mod+Control+Down gaps inner all minus 5
+
+# Reset gaps to default
+bindsym $mod+Control+0 gaps inner all set 8; gaps outer all set 5
+
 # set all windows in floating workspace float
 # for_window [class=".*"] floating enable
 for_window [workspace=$ws7] floating enable
@@ -184,7 +194,8 @@ mode "resize" {
 
 default_border pixel 6
 #smart_gaps on
-gaps inner 5px
+gaps inner 8px
+gaps outer 5px
 
 bindsym $mod+r mode "resize"
 
