@@ -1,4 +1,7 @@
 # Dots
+<p align="center">
+    <img src="./assets/preview.png"/>
+</p>
 Here you can find my configuration file of:
 - i3wm
 - mate-terminal
