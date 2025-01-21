@@ -4,7 +4,7 @@
 </p>
 Here you can find my configuration file of:
 - i3wm
-- mate-terminal
+- alacritty
 - my cursors
 - fonts
 
@@ -17,10 +17,6 @@ sudo ./install.sh
 ```
 
 ## Keybinds
-### gaps
-- Alt + Control + Up - Increase inner gaps
-- Alt + COntrol + Down - Decrease inner gaps
-
 ### Navigation
 - Alt + (1-7) - Switch workspaces
 - Alt + Shift + (1-7) Move client between workspaces
@@ -51,5 +47,5 @@ sudo ./install.sh
 - Alt + D - Runs dmenu
 - Alt + Shift + E - exit i3
 - Alt + Shift - Q - close client
-- Alt + Return - Open mate-terminal
+- Alt + Return - Open terminal
 ###
