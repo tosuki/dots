@@ -3,25 +3,25 @@ live_config_reload = true
 window.opacity = 1.0
 
 [colors.normal]
-black   = '#443a36'
-red     = '#674441'
-green   = '#5d6051'
-yellow  = '#84694e'
-blue    = '#475454'
-magenta = '#674441'
-cyan    = '#475454'
-white   = '#79695a'
+black   = '#709080'
+red     = '#DCA3A3'
+green   = '#C3BF9F'
+yellow  = '#F0DFAF'
+blue    = '#94BFF3'
+magenta = '#EC93D3'
+cyan    = '#93E0E3'
+white   = '#FFFFFF'
 
 # Bright colors
 [colors.bright]
-black   = '#443a36'
-red     = '#674441'
-green   = '#5d6051'
-yellow  = '#84694e'
-blue    = '#475454'
-magenta = '#674441'
-cyan    = '#475454'
-white   = '#79695a'
+black   = '#709080'
+red     = '#DCA3A3'
+green   = '#C3BF9F'
+yellow  = '#F0DFAF'
+blue    = '#94BFF3'
+magenta = '#EC93D3'
+cyan    = '#93E0E3'
+white   = '#FFFFFF'
 
 [colors.hints.end]
 background = "#ffffff"
@@ -32,9 +32,9 @@ background = "#cdcd00"
 foreground = "#1E1E2E"
 
 [colors.primary]
-background="#201e1a"
+background="#444444"
 #background="#000000"
-foreground="#79695a"
+foreground="#FFFFFF"
 
 [colors.vi_mode_cursor]
 cursor = "#B4BEFE"
@@ -54,8 +54,8 @@ mods = "Control|Shift"
 
 
 [window.padding]
-x = 40
-y = 40
+x = 0
+y = 0
 
 [cursor]
 # Cursor style options: "Block", "Underline", or "Beam".
