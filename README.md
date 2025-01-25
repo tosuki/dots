@@ -1,6 +1,6 @@
 # Dots
 <p align="center">
-    <img src="./assets/preview.png"/>
+    <img src="./assets/preview.gif"/>
 </p>
 Here you can find my configuration file of:
 - i3wm
