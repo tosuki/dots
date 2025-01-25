@@ -6,7 +6,7 @@ if [[ "$EUID" -ne 0 ]]; then
 fi
 
 echo "Installing dependencies"
-sudo apt install i3 alacritty
+sudo apt install i3 alacritty polybar
 if [[ $? -ne 0 ]]; then
     echo "An error occurred when trying to install the dependencies"
     exit 1
