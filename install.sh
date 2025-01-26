@@ -22,6 +22,10 @@ mkdir -p ~/.config/alacritty
 mv ./alacritty/* ~/.config/alacritty/
 echo "Configured"
 
+echo "Configuring polybar"
+mkdir -p ~/.config/polybar
+mv ./polybar/* ~/.config/polybar/
+
 echo "Installing fonts"
 sudo mv ./fonts/* /usr/share/fonts/truetype/
 fc-cache
