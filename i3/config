@@ -17,11 +17,9 @@ set $ws3 "3"
 set $ws4 "4"
 set $ws5 "5"
 
-for_window [class=".*"] floating enable
-
 include "./autostart.conf"
+include "./colors/brown.conf"
 
 include "./keys/apps.conf"
 include "./keys/windows.conf"
 
-include "./colors/kiss.conf"
