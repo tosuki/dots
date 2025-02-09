@@ -1,0 +1,143 @@
+# Nord Openbox theme
+# Inspired by horst3180's Arc GTK theme & Nord color palette by Arctic Ice Studio
+# https://github.com/arcticicestudio/nord
+
+### WINDOW
+border.width: 0
+
+window.client.padding.width: 0
+window.client.padding.height: 0
+window.handle.width: 0
+
+padding.width: 4
+padding.height: 6
+
+
+window.active.border.color: #181e23
+window.inactive.border.color: #181e23
+window.active.title.separator.color: #181e23
+window.inactive.title.separator.color: #181e23
+window.active.client.color: #181e23
+window.inactive.client.color: #181e23
+
+window.active.label.text.color: #ffffff
+window.inactive.label.text.color: #ffffff
+
+# Iconify button
+window.active.button.iconify.unpressed.image.color: #97d59b
+window.active.button.iconify.hover.image.color: #97d59b
+
+# Max button
+window.active.button.max.unpressed.image.color: #fffe80
+window.active.button.max.hover.image.color: #fffe80
+window.active.button.max.toggled.unpressed.image.color: #fffe80
+window.active.button.max.toggled.hover.image.color: #fffe80
+
+# Desk button
+window.active.button.desk.unpressed.image.color: #80d1ff
+window.active.button.desk.hover.image.color: #80d1ff
+
+# Shade button colors
+window.active.button.shade.unpressed.image.color: #c680ff
+window.active.button.shade.hover.image.color: #c680ff
+
+# Close button colors
+window.active.button.close.unpressed.image.color:#ff8080
+window.active.button.close.hover.image.color:#ff8080
+
+# Inactive button colors
+window.inactive.button.*.image.color: #d5d5d5
+
+window.inactive.button.close.hover.image.color: #ff8080
+window.inactive.button.shade.hover.image.color: #c680ff
+window.inactive.button.desk.hover.image.color: #80d1ff
+window.inactive.button.max.hover.image.color: #fffe80
+window.inactive.button.max.toggled.hover.image.color: #fffe80
+window.inactive.button.iconify.hover.image.color: #97d59b
+
+# All buttons
+window.active.button.*.pressed.image.color: #97d59b
+window.active.button.*.disabled.image.color: #181e23
+
+window.active.title.bg: flat solid
+window.active.title.bg.color: #181e23
+window.active.label.bg: flat solid
+window.active.label.bg.color: #181e23
+
+#window.active.handle.bg: texture
+#window.active.grip.bg: texture
+window.inactive.title.bg: flat solid
+window.inactive.title.bg.color: #181e23
+window.inactive.label.bg: flat solid
+window.inactive.label.bg.color: #181e23
+#window.inactive.handle.bg: texture
+#window.inactive.grip.bg: texture
+
+window.active.button.unpressed.bg: parentrelative
+window.active.button.pressed.bg: parentrelative
+window.active.button.hover.bg: parentrelative
+window.active.button.disabled.bg: parentrelative
+window.active.button.toggled.unpressed.bg: parentrelative
+window.active.button.toggled.pressed.bg: parentrelative
+window.active.button.toggled.hover.bg: parentrelative
+
+window.inactive.button.unpressed.bg: parentrelative
+window.inactive.button.pressed.bg: parentrelative
+window.inactive.button.hover.bg: parentrelative
+window.inactive.button.disabled.bg: parentrelative
+window.inactive.button.toggled.unpressed.bg: parentrelative
+window.inactive.button.toggled.pressed.bg: parentrelative
+window.inactive.button.toggled.hover.bg: parentrelative
+
+window.label.text.justify: center
+
+#window.active.label.text.font: text shadow
+#window.inactive.label.text.font: text shadow
+
+### MENU
+menu.border.width: 0
+menu.separator.width: 2
+menu.separator.padding.width: 10
+menu.separator.padding.height: 5
+
+menu.overlap.x: 0
+menu.overlap.y: 0
+
+menu.border.color: #181e23
+menu.separator.color: #cdd3dd
+
+menu.title.text.color: #ffffff
+menu.items.text.color: #ffffff
+menu.items.disabled.text.color: #485265
+menu.items.active.text.color: #ffffff
+menu.items.active.disabled.text.color: #aeb0b6
+
+menu.items.bg: flat solid
+menu.items.bg.color: #181e23
+menu.items.active.bg: flat solid
+menu.items.active.bg.color: #97d59b
+menu.title.bg: flat solid
+menu.title.bg.color: #1f252a
+
+menu.title.text.justify: center
+
+#menu.items.font: text shadow
+#menu.title.text.font: text shadow
+
+### OSD
+osd.border.width: 4
+
+osd.border.color: #1f252a
+
+osd.label.text.color: #cdd3dd
+
+osd.bg: flat solid
+osd.bg.color: #1f252a
+osd.label.bg: flat solid
+osd.label.bg.color: #1f252a
+osd.hilight.bg: flat solid
+osd.hilight.bg.color: #97d59b
+osd.unhilight.bg: flat solid
+osd.unhilight.bg.color: #181e23
+
+#osd.label.text.font: text shadow

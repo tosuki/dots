@@ -1,0 +1,119 @@
+# base16-qutebrowser (https://github.com/theova/base16-qutebrowser)
+# Scheme name: Solarized Light
+# Scheme author: Ethan Schoonover (modified by aramisgithub)
+# Template author: theova and Daniel Mulford
+# Commentary: Tinted Theming: (https://github.com/tinted-theming)
+
+base00 = "#181E23"
+base01 = "#181E23"
+base02 = "#181E23"
+base03 = "#D5D5D5"
+base04 = "#D5D5D5"
+base05 = "#D5D5D5"
+base06 = "#073642"
+base07 = "#002b36"
+base08 = "#dc322f"
+base09 = "#cb4b16"
+base0A = "#b58900"
+base0B = "#859900"
+base0C = "#2aa198"
+base0D = "#268bd2"
+base0E = "#6c71c4"
+base0F = "#d33682"
+
+def set_theme(config):
+    config.colors.completion.fg = base05    
+    config.colors.completion.odd.bg = base00    
+    config.colors.completion.even.bg = base00    
+    config.colors.completion.category.fg = base0D    
+    config.colors.completion.category.bg = base00    
+    config.colors.completion.category.border.top = base00    
+    config.colors.completion.category.border.bottom = base00    
+    config.colors.completion.item.selected.fg = base05    
+    config.colors.completion.item.selected.bg = base02    
+    config.colors.completion.item.selected.border.top = base02    
+    config.colors.completion.item.selected.border.bottom = base02    
+    config.colors.completion.item.selected.match.fg = base05    
+    config.colors.completion.match.fg = base09    
+    config.colors.completion.scrollbar.fg = base05    
+    config.colors.completion.scrollbar.bg = base00    
+    config.colors.contextmenu.disabled.bg = base01    
+    config.colors.contextmenu.disabled.fg = base04    
+    config.colors.contextmenu.menu.bg = base00    
+    config.colors.contextmenu.menu.fg =  base05    
+    config.colors.contextmenu.selected.bg = base02    
+    config.colors.contextmenu.selected.fg = base05    
+    config.colors.downloads.bar.bg = base00    
+    config.colors.downloads.start.fg = base00    
+    config.colors.downloads.start.bg = base0D    
+    config.colors.downloads.stop.fg = base00    
+    config.colors.downloads.stop.bg = base0C    
+    config.colors.downloads.error.fg = base08    
+    config.colors.hints.fg = base00    
+    config.colors.hints.bg = base0A    
+    config.colors.hints.match.fg = base05    
+    config.colors.keyhint.fg = base05    
+    config.colors.keyhint.suffix.fg = base05    
+    config.colors.keyhint.bg = base00    
+    config.colors.messages.error.fg = base00    
+    config.colors.messages.error.bg = base08    
+    config.colors.messages.error.border = base08    
+    config.colors.messages.warning.fg = base00
+    config.colors.messages.warning.bg = base0E
+    config.colors.messages.warning.border = base0E
+    config.colors.messages.info.fg = base05
+    config.colors.messages.info.bg = base00
+    config.colors.messages.info.border = base00
+    config.colors.prompts.fg = base05
+    config.colors.prompts.border = base00
+    config.colors.prompts.bg = base00
+    config.colors.prompts.selected.bg = base02
+    config.colors.prompts.selected.fg = base05
+    config.colors.statusbar.normal.fg = base05
+    config.colors.statusbar.normal.bg = base00
+    config.colors.statusbar.insert.fg = base0C
+    config.colors.statusbar.insert.bg = base00
+    config.colors.statusbar.passthrough.fg = base0A
+    config.colors.statusbar.passthrough.bg = base00
+    config.colors.statusbar.private.fg = base0E
+    config.colors.statusbar.private.bg = base00
+    config.colors.statusbar.command.fg = base04
+    config.colors.statusbar.command.bg = base01
+    config.colors.statusbar.command.private.fg = base0E
+    config.colors.statusbar.command.private.bg = base01
+    config.colors.statusbar.caret.fg = base0D
+    config.colors.statusbar.caret.bg = base00
+    config.colors.statusbar.caret.selection.fg = base0D
+    config.colors.statusbar.caret.selection.bg = base00
+    config.colors.statusbar.progress.bg = base0D
+    config.colors.statusbar.url.fg = base05
+    config.colors.statusbar.url.error.fg = base08
+    config.colors.statusbar.url.hover.fg = base09
+    config.colors.statusbar.url.success.http.fg = base0B
+    config.colors.statusbar.url.success.https.fg = base0B
+    config.colors.statusbar.url.warn.fg = base0E
+    config.colors.tabs.bar.bg = base00
+    config.colors.tabs.indicator.start = base0D
+
+    # Color gradient end for the tab indicator.
+    config.colors.tabs.indicator.stop = base0C
+    config.colors.tabs.indicator.error = base08
+    config.colors.tabs.odd.fg = base05
+    config.colors.tabs.odd.bg = base00
+    config.colors.tabs.even.fg = base05
+    config.colors.tabs.even.bg = base00
+    config.colors.tabs.pinned.even.bg = base0B
+    config.colors.tabs.pinned.even.fg = base00
+    config.colors.tabs.pinned.odd.bg = base0B
+    config.colors.tabs.pinned.odd.fg = base00
+    config.colors.tabs.pinned.selected.even.bg = base02
+    config.colors.tabs.pinned.selected.even.fg = base05
+    config.colors.tabs.pinned.selected.odd.bg = base02
+    config.colors.tabs.pinned.selected.odd.fg = base05
+    config.colors.tabs.selected.odd.fg = base05
+    config.colors.tabs.selected.odd.bg = base02
+    config.colors.tabs.selected.even.fg = base05
+    config.colors.tabs.selected.even.bg = base02
+    config.colors.webpage.bg = base00
+
+

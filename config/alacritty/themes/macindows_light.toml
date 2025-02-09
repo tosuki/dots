@@ -1,0 +1,51 @@
+window.opacity = 1.0
+
+[colors.normal]
+black   = '#000000'
+red     = '#FD7972'
+green   = '#B4C5A0'
+yellow  = '#FABE78'
+blue    = '#6CB2D8'
+magenta = '#c780ff'
+cyan    = '#6CB2D8'
+white   = '#d5d5d5'
+
+# Bright colors
+
+[colors.hints.end]
+background = "#ffffff"
+foreground = "#1E1E2E"
+
+[colors.hints.start]
+background = "#cdcd00"
+foreground = "#1E1E2E"
+
+[colors.primary]
+background="#FFF9EC"
+foreground="#000000"
+
+[colors.vi_mode_cursor]
+cursor = "#B4BEFE"
+text = "#1E1E2E"
+
+[font]
+size = 13
+
+[font.normal]
+family = "Ubuntu Mono"
+style = "Regular"
+
+[[keyboard.bindings]]
+action = "SpawnNewInstance"
+key = "Return"
+mods = "Control|Shift"
+
+
+[window.padding]
+x = 10
+y = 10
+
+[cursor]
+# Cursor style options: "Block", "Underline", or "Beam".
+style = "Block"
+

@@ -1,0 +1,62 @@
+live_config_reload = true
+window.opacity = 1.0
+
+[colors.normal]
+black   = '#443a36'
+red     = '#674441'
+green   = '#5d6051'
+yellow  = '#84694e'
+blue    = '#475454'
+magenta = '#674441'
+cyan    = '#475454'
+white   = '#79695a'
+
+# Bright colors
+[colors.bright]
+black   = '#443a36'
+red     = '#674441'
+green   = '#5d6051'
+yellow  = '#84694e'
+blue    = '#475454'
+magenta = '#674441'
+cyan    = '#475454'
+white   = '#79695a'
+
+[colors.hints.end]
+background = "#ffffff"
+foreground = "#1E1E2E"
+
+[colors.hints.start]
+background = "#cdcd00"
+foreground = "#1E1E2E"
+
+[colors.primary]
+background="#201e1a"
+#background="#000000"
+foreground="#79695a"
+
+[colors.vi_mode_cursor]
+cursor = "#B4BEFE"
+text = "#1E1E2E"
+
+[font]
+size = 9
+
+[font.normal]
+family = "Iosevka"
+style = "Regular"
+
+[[keyboard.bindings]]
+action = "SpawnNewInstance"
+key = "Return"
+mods = "Control|Shift"
+
+
+[window.padding]
+x = 40
+y = 40
+
+[cursor]
+# Cursor style options: "Block", "Underline", or "Beam".
+style = "Block"
+

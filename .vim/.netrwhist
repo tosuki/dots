@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =1
+let g:netrw_dirhist_1='/home/tosuki/.config/qutebrowser/themes'
+let g:netrw_dirhist_0='/home/tosuki/.config/qutebrowser'
+let g:netrw_dirhist_9='/home/tosuki/.config/qutebrowser/themes'
+let g:netrw_dirhist_8='/home/tosuki/.config/qutebrowser'
+let g:netrw_dirhist_7='/home/tosuki/dev/sophix'
+let g:netrw_dirhist_6='/home/tosuki/dev/sophix/src'
+let g:netrw_dirhist_5='/home/tosuki/dev/sophix'
+let g:netrw_dirhist_4='/home/tosuki/dev/sophix/src'
+let g:netrw_dirhist_3='/home/tosuki/dev/sophix'
+let g:netrw_dirhist_2='/home/tosuki/.config/gtk-3.0'
