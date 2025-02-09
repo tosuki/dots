@@ -12,7 +12,7 @@ Those are my dotfiles, nowadays i usually use those applications:
 ```
 git clone http://github.com/tosuki/dots
 cd dots
-./install
+./install.sh
 ```
 ## Any other distro
 Good luck!
